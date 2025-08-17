@@ -1,16 +1,24 @@
 # React Todo App 📝
 
-A modern, fully-featured Todo application built with ReactJS.
+A modern, feature-rich Todo List application built with **ReactJS**. This app provides an intuitive interface for managing daily tasks with advanced features like filtering, searching, due date tracking, and persistent storage.
 
-## Features
+### Core Functionality
+- ✅ **Add Todos** – Create new tasks with text and optional due dates  
+- ✏️ **Edit Todos** – Inline editing with keyboard shortcuts *(Enter to save, Escape to cancel)*  
+- ✓ **Complete Todos** – Mark tasks as completed with visual checkbox indicators  
+- 🗑️ **Delete Todos** – Remove tasks with confirmation dialogs  
+- 💾 **Persistent Storage** – All data automatically saved to browser's local storage  
 
-- ✅ Add, edit, and delete todos
-- ✅ Mark todos as completed/incomplete
-- ✅ Set due dates for todos
-- ✅ Search and filter todos
-- ✅ Local storage persistence
-- ✅ Responsive design
-- ✅ Modern UI with animations
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚛️ **React (18.2.0)** – Component-based UI library  
+- 🎣 **React Hooks** – *useState, useEffect, useRef* for state management  
+- 🟨 **JavaScript (ES6+)** – Modern JavaScript features and syntax  
+- 🎨 **CSS3** – Advanced styling with custom properties, flexbox, and grid  
+- 📝 **HTML5** – Semantic structure for accessibility and SEO  
 
 ## Getting Started
 
@@ -35,38 +43,3 @@ A modern, fully-featured Todo application built with ReactJS.
    ```bash
    npm start
    ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Available Scripts
-
-- `npm start` - Runs the development server
-- `npm run build` - Builds the app for production
-- `npm test` - Runs the test suite
-- `npm run eject` - Ejects from Create React App
-
-## Project Structure
-
-```
-react-todo-app/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── AddTodo.js
-│   │   ├── AddTodo.css
-│   │   ├── TodoItem.js
-│   │   └── TodoItem.css
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-└── package.json
-```
-
-## Technologies Used
-
-- React 18
-- CSS3 with modern features
-- Local Storage API
-- ES6+ JavaScript
